@@ -1,0 +1,228 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin:0;
+	padding:0;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: cover;
+}
+#wrapper {
+	background: #ccc;
+	margin: 20px auto;
+	width: 960px;
+	padding: 15px;
+}
+#header {
+	background: #fff;
+	background-image: url("../images/focsani.jpg");
+	background-size: cover;
+	margin: 0 0 10px 0;
+	padding: 10px;
+	overflow: hidden;
+}
+#logo {
+	float: left;
+	width: 120;
+	margin-left: 10px;
+}
+
+#nav {
+	height: 44px;
+	background: #333;
+	margin: 0 0 10px 0;
+}
+#nav ul {
+	margin:0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+	float: left;
+	
+}
+/*navbar starts*/
+#nav ul li {
+	display: inline-block;
+}
+#nav ul li a {
+	padding:10px;
+	height: 20px;
+	line-height: 20px;
+	display: block;
+	text-decoration: none;
+}
+#nav ul li a:link, a:visited {
+	font-size: 17px;
+	color:#fff;	
+	border: solid 2px #333;
+}
+#nav ul li a:hover {
+	color: #333;
+	background: #ccc;
+	font-weight: bold;
+	border: solid 2px #333;
+}
+#nav ul li a:active {
+	color:#000;		
+}
+#nav ul li ul{
+	box-sizing: border-box;
+	position: absolute;
+	top: 44px;
+	left: 83px;
+	width:193px;
+	display: none;
+}
+#nav ul li:hover ul {
+	display:block;
+}
+#nav ul li ul li {
+	background: rgba(51,51,51,0.9);
+	display: block;
+	text-align: center;
+	margin-top: 1px;
+}#icons {
+	float: right;
+	padding: 4px 8px 0 0;
+	letter-spacing: 3px;
+	
+}
+#icons a:link, a:visited {
+	font-size: 26px;
+	color:#fff;
+}
+#icons a:hover {
+	color:#ccc;
+}
+#icons a:active {
+	color:#000;
+}
+/*navbar ends*/
+
+/*main content starts*/
+#main {
+	width: 700px;
+	float: left;
+	margin: 0 0 10px 0;
+}
+#main h1 {
+	text-align: center;
+	font-weight: 200;
+}
+#main p{
+	text-indent: 20px;
+}
+.mainImg {
+	width: 700px;
+	margin: 20px 0;
+}
+.imgleft {
+	float:left;
+	margin:10px;
+}
+.principat{
+	border-bottom: 1px solid #333;
+	border-top: 1px solid #333;
+	padding: 22px 0 0 10px;
+}
+.principat figcaption{
+	font-size: 12px;
+	text-align: center;
+	margin-bottom: 5px;
+}
+/*table starts*/
+ table {
+     border: ridge #333;
+	 width: 600px;
+	 margin:50px 0 50px 50px;
+    }
+td {
+    text-align: center;
+    padding: 5px;
+	border: ridge 2px #333;
+    }
+tr {
+    background-color: #ccc;
+	color:#333;
+	font-weight: bold;
+    }
+.row {
+    background-color: #333;
+	color:#fff;
+	font-weight: 200;
+    }
+th{
+    background-color:#333;
+    color: #fff;
+	padding:10px;
+	border: ridge 2px #333;
+	font-size: 18px;
+	font-weight: 200;
+    }
+/*table ends*/
+/*main content ends*/
+
+/*sidebar starts*/
+#sidebar {
+	width: 240px;
+	float: right;
+	margin: 0 0 10px 0;
+}
+#sidebar img {
+	margin: 30px 0 24px 0;
+	width:100%;
+}
+#sidebar h2 {
+	border-bottom: solid 2px #333;
+	font-size: 17px;
+	text-align: center;
+	width: 100%;
+}
+#sidebar h3,p {
+	margin:10px;
+	width:100%;
+}
+#sidebar ul{
+	list-style:square;
+	padding-left: 35px;
+}
+#sidebar .block {
+	margin: 0;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+#sidebar .btn a:link, a:visited {
+	border: solid 2px #333;
+	display: block;
+	width:100%;
+	text-decoration: none;
+	text-align: center;
+	font-size: 17px;
+	background: #333;
+	color:#fff;
+	padding:5px 0;
+}
+#sidebar .btn a:hover {
+	text-decoration: none;
+	background: #ccc;
+	font-weight: bold;
+	color:#000;
+}
+/*sidebar ends*/
+
+#footer {
+	background: #333;
+	clear: both;
+	color: #fff;
+	text-align: center;
+	padding: 5px;
+}
+#footer p {
+	margin: 0;
+}
